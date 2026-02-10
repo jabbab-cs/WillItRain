@@ -10,7 +10,7 @@ function getlocation() {
       }
     } catch (e) {}
   }
-
+  //yoo
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(success, error, { timeout: 5000 });
   } else {
